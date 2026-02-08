@@ -3,6 +3,10 @@ package es.uma.informatica.misia.ae.simpleea;
 import java.util.List;
 import java.util.Random;
 
+/*
+Es una clase que implementa el operador de selección por torneo binario, uno de los
+métodos más usados en algoritmos genéticos.
+ */
 public class BinaryTournament implements Selection {
 	private Random rnd;
 	

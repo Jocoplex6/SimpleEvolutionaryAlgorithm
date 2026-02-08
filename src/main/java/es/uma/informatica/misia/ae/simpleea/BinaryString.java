@@ -3,6 +3,10 @@ package es.uma.informatica.misia.ae.simpleea;
 import java.util.Arrays;
 import java.util.Random;
 
+/*
+BinaryString es una implementación concreta de un individuo cuya representación es un cromosoma binario (vector de 0s y 1s).
+Hereda de Individual, que es la clase base donde está el fitness.
+ */
 public class BinaryString extends Individual {
 	private byte [] chromosome;
 	
@@ -37,3 +41,4 @@ public class BinaryString extends Individual {
 	
 
 }
+
